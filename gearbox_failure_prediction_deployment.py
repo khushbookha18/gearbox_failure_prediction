@@ -16,10 +16,10 @@ model = joblib.load("gearbox_failure_prediction_rfc_model.pkl")
 st.title("gearbox failure prediction system")
 st.write("The system uses sensor inputs (Load, Temperature, Vibration, and Oil Level)** to predict whether the **machine will work normally or fail using a trained machine learning model")
 
-  Load_percent = st.number_input("Load_%")
-  Temperature_C = st.number_input("Temperature_C")
-  Vibration_mm_s = st.number_input("Vibration_mm_s")
-  Oil_Level_percent = st.number_input("Oil_Level_%")
+Load_percent = st.number_input("Load_%")
+Temperature_C = st.number_input("Temperature_C")
+Vibration_mm_s = st.number_input("Vibration_mm_s")
+Oil_Level_percent = st.number_input("Oil_Level_%")
 
  df = pd.DataFrame({
     "Load_%":[Load_%],
