@@ -21,7 +21,7 @@ Temperature_C = st.number_input("Temperature_C")
 Vibration_mm_s = st.number_input("Vibration_mm_s")
 Oil_Level_percent = st.number_input("Oil_Level_%")
 
- df = pd.DataFrame({
+df = pd.DataFrame({
     "Load_%":[Load_%],
     "Temperature_C":[Temperature_C],
     "Vibration_mm_s":[Vibration_mm_s],
