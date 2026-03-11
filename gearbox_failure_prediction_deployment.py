@@ -28,7 +28,7 @@ df = pd.DataFrame({
     "Oil_Level_percent":[Oil_Level_percent],
  })
 
- if st.button("predict"):
+  if st.button("predict"):
     prediction = model.predict(df)
     if prediction[0] == 1;
         st.write("machine will fail")
