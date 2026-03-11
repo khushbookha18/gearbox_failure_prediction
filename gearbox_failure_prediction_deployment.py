@@ -29,7 +29,7 @@ df = pd.DataFrame({
  })
 if st.button("predict"):
     prediction = model.predict(df)
-    if prediction[0] == 1;
+    if prediction[0] == 1:
         st.write("machine will fail")
     else:
         st.write("machine will work")
