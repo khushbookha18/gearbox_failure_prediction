@@ -22,10 +22,10 @@ Vibration_mm_s = st.number_input("Vibration_mm_s")
 Oil_Level_percent = st.number_input("Oil_Level_%")
 
 df = pd.DataFrame({
-    "Load_%":[Load_%],
+    "Load_percent":[Load_percent],
     "Temperature_C":[Temperature_C],
     "Vibration_mm_s":[Vibration_mm_s],
-    "Oil_Level_%":[Oil_Level_%],
+    "Oil_Level_percent":[Oil_Level_percent],
  })
 
  if st.button("predict"):
