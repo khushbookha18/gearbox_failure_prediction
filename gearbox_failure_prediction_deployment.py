@@ -30,6 +30,6 @@ df = pd.DataFrame({
 if st.button("predict"):
     prediction = model.predict(df)
     if prediction[0] == 1:
-        st.error("gear will fail")
+        st.error("Gear will fail")
     else:
-        st.error("gear will work")
+        st.error("Gear will work")
